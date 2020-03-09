@@ -1,0 +1,278 @@
+.t1{ 
+		top: 0px;
+        left: 0px;
+		position: fixed;
+		background: #272d39;
+		height:8vh;
+		width: 100vw;
+		z-index: 1;
+
+		
+	}
+	.t2{
+		position: absolute;
+		top: 8vh;
+		left:0PX;
+		width: 100VW;
+ 	    background-image: radial-gradient(#f6c9a5,#e38b84,#705f90);
+ 	    height: 92VH;
+ 	    z-index: 1;
+
+	}
+	#i1{ 
+	    color: white;
+	    position: absolute;
+        top: 0.3em;
+        left: 0.5em;
+         white-space: nowrap;
+         overflow: hidden;
+         font-size: 30px;
+
+     }
+    .t3{
+    	position: absolute;
+        left: 0vh;
+    	top:20vh;
+    	height: 60vh;
+    	width: 100vw;
+    	background-image: linear-gradient(45deg,#705F94,#d8777a,#f6d5ab);
+    	box-shadow: 20px 20px 60px black;
+    	z-index: 2;
+    }
+    .button{
+    	position: absolute;
+    	top:1vh;
+    	right: 0;
+    	height:6vh;
+    	width: 10vw;
+    	border-radius: 5px;
+    	background:  #d8777a;
+    	text-align: center;
+         transition-duration: 1s;
+        transition-timing-function: linear;
+        
+
+    }
+    .button:hover{
+        background:  #ff1a1a;
+    }
+    
+    #i2{ 
+    	position: relative;
+    	top: 0.3em;
+        left: 0.1em;
+        padding-top: 1vh;
+        transition-duration: .1s;
+    	 transition-timing-function: linear;
+        
+    	
+    }
+
+    .t4{
+    	position: relative;
+    	top:20vh;
+    	height: 60vh;
+   
+    	z-index: 3;
+    	box-shadow: 10px,10px,20px,black;
+    }
+    #i3{
+    	position: absolute;
+    	height: 60vh;
+    	width: 25vw;
+    	
+    }
+    .t5{
+    	position: absolute;
+        top:20vh;
+    	height: 60vh;
+    	left: 25vw;
+    	width: 50vw;
+    	z-index: 6;
+    	color: white;
+    	text-align: center;
+    	font-size: 40px;
+        text-shadow: 2px 2px 4px #000000;
+       
+
+    }
+    
+
+
+    .t6{
+    	position: absolute;
+    	top:0vh;
+    	right: 0px;
+    	height: 60vh;
+      
+    	z-index: 9;
+
+    }
+    #i4{
+    	position: absolute;
+    	height: 60vh;
+    	width: 25vw;
+
+    	
+
+    }
+     a:link{
+    	color: white;
+        text-decoration: none;
+        font-size: 25px;
+        
+    }
+    a:visited{
+    	color: white;
+    	text-decoration: none;
+        font-size: 25px;
+        
+    }
+     a:hover{
+    	color: white;
+    	text-decoration: none;
+        font-size: 27px;
+        transition-duration: .5s;
+        transition-timing-function: linear;
+     }
+     a:active{
+     	color: pink;
+     	text-decoration: none;
+     	cursor: wait;
+        
+        font-size: 27px;
+     }
+     .t7{
+        position: absolute;
+        left: 0;
+        width: 50vw;
+        bottom: -15vh;
+        z-index: 7;
+        word-spacing: 3vw;
+     }
+     #i5{
+      
+      
+        background:  #99b3ff;
+        height: 10px;
+        width: 2.5px;
+        border-radius: 5px;
+        border-color:  #99b3ff;
+     
+        
+     }
+     #i5:hover{
+        background: #1a53ff;
+        cursor: pointer;
+        transition-duration: .5s;
+     }
+     #about{
+           padding-top: 1%;
+        text-align: center;
+           color: white;
+           font-size: 50px
+
+
+
+         }
+    #text{
+        overflow: hidden;
+        word-spacing: 1vw;
+        padding-left: 5vw;
+        font-size: 30px;
+        width: 50%;
+        text-shadow: 10px 5px 20px red;
+        color: white;
+    }
+
+    .box{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+  }
+  .card{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.5);
+  }
+  .card:before,
+  .card:after
+  {
+    content:"8269117014";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+  }
+  .card:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card .imgBx{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 1s;
+  z-index: 1;
+  }
+  
+  .card:hover .imgBx
+  {
+    bottom: 80px;
+  }
+
+  .card .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .card .details{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      height: 60px;
+      text-align: center;
+  }
+
+  .card .details h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 20px;
+   color: #777;
+   text-transform: uppercase;
+  } 
+
+  .card .details h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+   } 
+   
